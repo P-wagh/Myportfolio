@@ -45,26 +45,29 @@ nav{
 
 
 /* My name and discription section */
-.profilepicture{
+/* .profilepicture{
     position: absolute;
     z-index: -1;
     overflow: visible;
     width: 425px;  
-}
-.profile{
+} */
+/* .profile{
     position: absolute;
     left: 568px;
     top: -104px;
     z-index: -1;
-}
+} */
+
 /* my name and discription */
-.myinfo{
+
+/* .myinfo{
     position: relative;
     width: 540px;
     margin-left: 5%;
     padding: 18% 0% 1% 15%;
     overflow: visible;
-}
+} */
+
 .btn:hover{
     background-color: rgb(195, 170, 239);
     color: rgb(70, 59, 88);
@@ -79,14 +82,7 @@ nav{
     font-weight: 800;
 
 }
-/* resume button */
-.btn{
-    margin: 4%;
-    color: white;
-    background-color: blueviolet;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
-}
-/* My name and discription section  ends*/
+
 
 
 
@@ -94,8 +90,8 @@ nav{
 /* Project section starts */
 .projectbaground{
     background-color: rgb(227, 214, 250);
-    margin: -12px;
-    padding: 2%;
+    /* margin: -12px;
+    padding: 2%; */
 }
 .projecttitle{
     color: blueviolet;
