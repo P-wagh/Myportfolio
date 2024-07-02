@@ -1,0 +1,242 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 176, 255);
+    opacity: 2;
+}
+
+/* navbar style */
+nav{
+    background-color: rgb(195, 170, 239);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-brand:hover{
+    color: blueviolet !important;
+}
+.navbar-nav{
+    margin: auto;
+}
+.active1{
+    color:rgb(70, 59, 88);
+}
+.nav-link:hover{
+    color: blueviolet !important;
+}
+.active{
+    color: blueviolet !important;
+}
+/* Navbar style end */
+
+
+
+/* White baground */
+.maindiv{
+    width: 1000px;
+    /* height: 1500px; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+}
+
+
+/* My name and discription section */
+.profilepicture{
+    position: absolute;
+    z-index: -1;
+    overflow: visible;
+    width: 425px;  
+}
+.profile{
+    position: absolute;
+    left: 568px;
+    top: -104px;
+    z-index: -1;
+}
+/* my name and discription */
+.myinfo{
+    position: relative;
+    width: 540px;
+    margin-left: 5%;
+    padding: 18% 0% 1% 15%;
+    overflow: visible;
+}
+.btn:hover{
+    background-color: rgb(195, 170, 239);
+    color: rgb(70, 59, 88);
+}
+.myname{
+    font-size: xxx-large;
+    font-weight: 700;
+    /* color: rgb(173, 129, 249);
+    text-shadow: -1px 2px 0px #000000; */
+}
+.namediscription{
+    font-weight: 800;
+
+}
+/* resume button */
+.btn{
+    margin: 4%;
+    color: white;
+    background-color: blueviolet;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+/* My name and discription section  ends*/
+
+
+
+
+/* Project section starts */
+.projectbaground{
+    background-color: rgb(227, 214, 250);
+    margin: -12px;
+    padding: 2%;
+}
+.projecttitle{
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: 600;  
+    /* margin-inline: 10%;   */
+}
+.projectsection{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-inline: 10%;
+}
+.card-title{
+    color: blueviolet;
+}
+/* Project section ends */
+
+
+
+/* Skill section */
+.skilltitle{
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: 600; 
+}
+.myskills{
+    display: flex;
+}
+.htmlskill{
+    width: 100px;
+    height: 100px;
+    /* margin-bottom: 1%; */
+}
+.svg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+/* Skill section ends */
+
+
+/* Contact Section */
+.contactform{
+    padding-left: 15rem !important; 
+    padding-right: 15rem !important;
+}
+@media screen and (max-width: 988px){
+    .projectsection {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-inline: unset;
+        align-items: center;
+    }
+    .myskills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .htmlskill {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 4%;
+    }
+    .contactform {
+        padding-left: unset !important;
+        padding-right: unset !important;
+        margin: 5%;
+    }
+
+
+
+@media screen and (max-width:1199px) {
+    .profile {
+        position: absolute;
+        left: 528px;
+        top: -104px;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    
+    .profile {
+        position: absolute;
+        left: 372px;
+        top: -87px;
+        z-index: -1;
+        width: 324px;
+    }
+    .myinfo {
+        /* position: relative; */
+        width: 540px;
+        margin-left: 5%;
+        padding: 16% 0% 1% 0%;
+        overflow: unset;
+    }
+    .namediscription {
+        font-weight: 800;
+        width: 403px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .myinfo {
+        /* position: relative; */
+        width: 540px;
+        margin-left: 0%;
+        padding: 61% 0% 1% 0%;
+        overflow: unset;
+    }
+    .profile {
+        position: absolute;
+        left: 23px;
+        top: -675px;
+        z-index: -1;
+        width: 259px;
+    }
+    
+    .container.d-flex.flex-row.mt-4.herosection {
+        flex-direction: column-reverse !important;
+    }
+}
+@media screen and (max-width: 1199) {
+    .profile {
+        position: absolute;
+        left: 568px;
+        top: -104px;
+        z-index: -1;
+        width: 368px;
+    }
+}
+@media screen and (min-width: 990px) {
+    .profile {
+        position: absolute;
+        left: 371px;
+        top: -80px;
+        z-index: -1;
+        width: 326px;
+    }
+}
+
+}
