@@ -151,11 +151,9 @@ form{
     .fw-bold.namedis {
         padding-left: 15px;
     }
-}
 
-@media screen and (max-width: 376px) {
     form {
         width: unset !important;
     }
-    
 }
+
