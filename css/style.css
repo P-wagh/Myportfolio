@@ -33,6 +33,15 @@ nav{
 }
 /* Navbar style end */
 
+/* Offcanvas section */
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 250px;
+}
+/* Offcanvas section end */
+
+
+
 
 /* Myinfo section start */
 .container.myinfo {
